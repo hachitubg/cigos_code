@@ -6,3 +6,4 @@
 4. Xong điều kiện 1, 2 và 3 mới phân số người có thể chấm thêm để mỗi bài có được 3 người chấm, đến khi nào hết khả năng thì thôi
 
 ***
+## Hướng dẫn chạy code:
