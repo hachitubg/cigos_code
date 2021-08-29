@@ -14,11 +14,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class PhanBoPaper {
-    public static String base_url = "./file/new/";
+    public static String base_url = "./file/";
 
     public static String firstName = "First name";
     public static String lastName = "Last name";
@@ -82,7 +80,9 @@ public class PhanBoPaper {
                 String cellValue = dataFormatter.formatCellValue(cell);
                 try {
                     String key = sheet.getRow(0).getCell(cell.getColumnIndex()).toString();
-                    json.put(key, cellValue);
+                    if (!cellValue.equals("")) {
+                        json.put(key, cellValue);
+                    }
                 } catch (Exception ex) {
                     System.out.println(ex);
                 }
@@ -234,18 +234,10 @@ public class PhanBoPaper {
 
 
     public static void main(String[] args) throws IOException {
-
         List<JSONObject> finalObjects = new ArrayList<>();
 
-        List<JSONObject> lstReviewer1 = readXLSFile("reviewer.xls");
-        Collections.shuffle(lstReviewer1);
-
-        List<JSONObject> lstReviewerSc = readXLSFile("reviewer_sc.xls");
-        Collections.shuffle(lstReviewerSc);
-
         List<JSONObject> lstPaper = readXLSFile("paper.xls");
-
-        List<JSONObject> lstReviewer = Stream.concat(lstReviewer1.stream(), lstReviewerSc.stream()).collect(Collectors.toList());
+        List<JSONObject> lstReviewer =  readXLSFile("reviewers.xls");;
         Collections.shuffle(lstReviewer);
 
         Map<JSONObject, Integer> mapPaper = new LinkedHashMap<>();
