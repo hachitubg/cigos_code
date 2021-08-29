@@ -7,3 +7,7 @@
 
 ***
 ## Hướng dẫn chạy code:
+**Phân bỏ reviewer chấm paper:
+1. File **reviewers.xls** trong thư mục file
+2. File **paper.xls** trong thư mục file
+3. Kết quả là file **Format_editors.xlsx** trong thư mục file/final
