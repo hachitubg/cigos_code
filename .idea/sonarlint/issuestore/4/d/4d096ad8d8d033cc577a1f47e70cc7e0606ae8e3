@@ -1,0 +1,99 @@
+
+p
+java:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(œû¿Ø8 Áï²ˆ/
+_
+java:S1075Â"ARefactor your code to get this URI from a customizable parameter.(–ıÔ¯8Ûùî‡/
+v
+java:S1104*"YMake topicReviewer a static final constant or non-public and provide accessors if needed.(ÀÑ¯‡8åê¸²ˆ/
+o
+java:S20957"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(”ğ“…ÿÿÿÿÿ8Ûùî‡/
+K
+java:S1444(".Make this "public static lastName" field final(Ï—Ø°8¯„³ˆ/
+T
+java:S14443"2Make this "public static nameReviewer" field final(‚‹Œâıÿÿÿÿ8¤ˆ³ˆ/
+q
+java:S1104("TMake lastName a static final constant or non-public and provide accessors if needed.(Ï—Ø°8¯„³ˆ/
+H
+java:S1444-"+Make this "public static title" field final(ĞŒÖ‹8åê¸²ˆ/
+l
+java:S20958"JUse try-with-resources or close this "HSSFWorkbook" in a "finally" clause.(´ïÖşÿÿÿÿ8Ûùî‡/
+L
+java:S3740>"/Provide the parametrized type for this generic.(Ã–¦8Ûùî‡/
+m
+java:S1104)"QMake email a static final constant or non-public and provide accessors if needed.(Ü€Ê48åê¸²ˆ/
+z
+java:S11043"XMake nameReviewer a static final constant or non-public and provide accessors if needed.(‚‹Œâıÿÿÿÿ8¤ˆ³ˆ/
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(ï¦Ô•8Ûùî‡/
+k
+java:S2095¡"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¦ğÏÉ8Ûùî‡/
+R
+java:S1444,"0Make this "public static topicPaper" field final(åÛÌşÿÿÿÿ8åê¸²ˆ/
+n	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ğÏÉ8Ûùî‡/
+r	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ğ“…ÿÿÿÿÿ8Ûùî‡/
+V	java:S106µ"9Replace this use of System.out or System.err by a logger.(¾Û8Ûùî‡/
+h
+java:S2095Ç"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(×Ş•‘8Ûùî‡/
+h
+java:S2095‰"JUse try-with-resources or close this "HSSFWorkbook" in a "finally" clause.(‚·Ú8Ûùî‡/
+x
+java:S1104,"VMake topicPaper a static final constant or non-public and provide accessors if needed.(åÛÌşÿÿÿÿ8åê¸²ˆ/
+m
+java:S2095¤"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(ª°âıÿÿÿÿ8Ûùî‡/
+e
+java:S1192‡"GDefine a constant instead of duplicating this literal "Sheet1" 3 times.(¦„¦ÿ8Ü§²ˆ/
+d
+java:S1854¯"ARemove this useless assignment to local variable "indexReviewer".(™ıªşÿÿÿÿ8î‡Ö²ˆ/
+V	java:S106·"9Replace this use of System.out or System.err by a logger.(òÕö8î‡Ö²ˆ/
+U
+java:S14442"3Make this "public static emailReviewer" field final(Ï°¾‹úÿÿÿÿ8æÆ‡³ˆ/
+n
+java:S1104-"QMake title a static final constant or non-public and provide accessors if needed.(ĞŒÖ‹8åê¸²ˆ/
+M
+java:S3740®"/Provide the parametrized type for this generic.(¯‰Ö8Ûùî‡/
+_
+java:S1128"=Remove this unused import 'org.apache.poi.ss.usermodel.Cell'.(éÊˆüÿÿÿÿ8¨ÒÏ²ˆ/
+]	java:S125_"<This block of commented-out lines of code should be removed.(Ÿô»ùùÿÿÿÿ8Ûùî‡/
+_
+java:S1075…"ARefactor your code to get this URI from a customizable parameter.(¤œÈê8Ûùî‡/
+{
+java:S11042"YMake emailReviewer a static final constant or non-public and provide accessors if needed.(Ï°¾‹úÿÿÿÿ8æÆ‡³ˆ/
+s
+java:S11041"VMake paperFinal a static final constant or non-public and provide accessors if needed.(Ôà°í8¦º²ˆ/
+o
+java:S1104."RMake AUTHOR a static final constant or non-public and provide accessors if needed.(“ûò8òÂì²ˆ/
+I
+java:S1444.",Make this "public static AUTHOR" field final(“ûò8òÂì²ˆ/
+h
+java:S2095¢"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(èÌéÓ8Ûùî‡/
+M
+java:S3740ª"/Provide the parametrized type for this generic.(Ã–¦8Ûùî‡/
+Q
+java:S1444'"/Make this "public static firstName" field final(®¢Íùÿÿÿÿ8¯„³ˆ/
+M
+java:S14441"0Make this "public static paperFinal" field final(Ôà°í8¦º²ˆ/
+w
+java:S1104'"UMake firstName a static final constant or non-public and provide accessors if needed.(®¢Íùÿÿÿÿ8¯„³ˆ/
+[
+java:S1854¤"8Remove this useless assignment to local variable "test".(ª°âıÿÿÿÿ8Ûùî‡/
+P
+java:S1444*"3Make this "public static topicReviewer" field final(ÀÑ¯‡8åê¸²ˆ/
+U	java:S106X"9Replace this use of System.out or System.err by a logger.(ÌĞ„8Ûùî‡/
+_
+java:S1075á"ARefactor your code to get this URI from a customizable parameter.(–ıÔ¯8Ü§²ˆ/
+[	java:S106º"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ûùî‡/
+p
+java:S3776Ş"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(’ÙÁË8¥šõ³ˆ/
+L
+java:S1481¤")Remove this unused "test" local variable.(ª°âıÿÿÿÿ8Ûùî‡/
+G
+java:S1444)"+Make this "public static email" field final(Ü€Ê48åê¸²ˆ/
+L
+java:S3740E"/Provide the parametrized type for this generic.(¯‰Ö8Ûùî‡/
+n
+java:S3008."QRename this field "AUTHOR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ûò8òÂì²ˆ/
+h
+java:S2095æ"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(×Ş•‘8Ü§²ˆ/
+V	java:S106³"9Replace this use of System.out or System.err by a logger.(Æ‹Öÿ8Ûùî‡/
+^	java:S125£"<This block of commented-out lines of code should be removed.(ÓÕİİûÿÿÿÿ8ŒñÊ´ˆ/
+M
+java:S1481™"/Remove this unused "indexPaper" local variable.(İĞüÕ8ŒñÊ´ˆ/
