@@ -9,6 +9,6 @@
 ## Hướng dẫn chạy code:
 **Phân bỏ reviewer chấm paper:
 1. Kiểm tra và thay đổi 2 file đầu vào với đúng các cột như file mẫu
--. File **reviewers.xls** trong thư mục file
--. File **paper.xls** trong thư mục file
+- File **reviewers.xls** trong thư mục file
+- File **paper.xls** trong thư mục file
 2. Kết quả là file **Format_editors.xlsx** trong thư mục file/final
