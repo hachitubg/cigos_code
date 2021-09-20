@@ -273,6 +273,7 @@ public class PhanBoPaper {
             j++;
         }
 
+        // Map các TOPIC theo độ ưu tiên
         Map<String, String> topics = new TreeMap<>();
         topics.put("TOPIC1", "APSC");
         topics.put("TOPIC2", "GTE");
@@ -284,49 +285,58 @@ public class PhanBoPaper {
         topics.put("TOPIC8", "STBCP");
         topics.put("TOPIC9", "SCMT");
 
-        // For cac TOPIC
+        // Vòng lặp các TOPIC theo độ ưu tiên từ 1 -> 9
         for (Map.Entry<String, String> entryTopic : topics.entrySet()) {
             String topicName = entryTopic.getValue();
             JSONObject finalObject;
 
-            // For cac reviewer
-            for (Map.Entry<JSONObject, Integer> entry : mapReviewer.entrySet()) {
-                JSONObject reviewer = entry.getKey();
+            // Vòng lặp các REVIEWER
+            for (Map.Entry<JSONObject, Integer> entryReviewer : mapReviewer.entrySet()) {
+                JSONObject reviewer = entryReviewer.getKey();
                 int plusVN = 0;
 
-                // For cac paper
+                // Vòng lặp các PAPER
                 for (Map.Entry<JSONObject, Integer> entryPaper : mapPaper.entrySet()) {
-
                     JSONObject paper = entryPaper.getKey();
 
                     int maxReviewPaper = entryPaper.getValue();
-                    int maxRev = entry.getValue();
+                    int maxReviewer = entryReviewer.getValue();
 
+                    // Nếu PAPER thuộc TOPIC
                     if (paper.getString(topicPaper).contains(topicName)) {
-
                         finalObject = new JSONObject();
 
-                        // Check dieu kien
+                        // Check các điều kiện
                         if (
+                                // 1. TOPIC của REVIEWER == TOPIC
                                 reviewer.getString(topicReviewer).contains(topicName)
-                                        && !(paper.getString(AUTHOR).contains(reviewer.getString(email)))
-                                        && !(paper.getString(AUTHOR).contains(reviewer.getString(endEmail)))
-                                        && !(reviewer.has(coquanReviewer) && reviewer.getString(coquanReviewer).contains(paper.getString(coquanPaper)))
+                                // 2. REVIEWER không thuộc nhóm tác giả của PAPER (Check theo email và đuôi email)
+                                && !(paper.getString(AUTHOR).contains(reviewer.getString(email)))
+                                && !(paper.getString(AUTHOR).contains(reviewer.getString(endEmail)))
+                                // 3. REVIEWER không cùng cơ quan với PAPER
+                                && !(reviewer.has(coquanReviewer) && reviewer.getString(coquanReviewer).contains(paper.getString(coquanPaper)))
                         ) {
-                            if (maxRev < reviewer.getInt(maxReview) && maxReviewPaper < 2) {
+                            // Check tiếp các điều kiện
+                            // 1. Số lần chấm điểm của reviewer chưa max và PAPER chưa được chấm 2 lần
+                            if ((maxReviewer < reviewer.getInt(maxReview)) && maxReviewPaper < 2) {
+                                // 2. Nếu PAPER là bài của VIETNAM
                                 if (paper.getString(coquanPaper).contains("Vietnam") || paper.getString(coquanPaper).contains("VIETNAM")) {
+                                    // 3. Kiểm tra xem PAPER này đã có người nước ngoài chấm hay chưa ?
                                     if (plusVN == 0) {
+                                        // Nếu chưa có người nước ngoài chấm thì thêm người nước ngoài chấm bài
                                         if (!reviewer.has(countryReviewer)) {
                                             plusVN++;
-                                            saveToObject(reviewer, paper, finalObject, finalObjects, mapPaper, mapReviewer, maxRev, maxReviewPaper);
+                                            saveToObject(reviewer, paper, finalObject, finalObjects, mapPaper, mapReviewer, maxReviewer, maxReviewPaper);
                                             maxReviewPaper++;
                                         }
                                     } else if (plusVN == 1) {
-                                        saveToObject(reviewer, paper, finalObject, finalObjects, mapPaper, mapReviewer, maxRev, maxReviewPaper);
+                                        // Nếu bài đã có người nước ngoài chấm thì thêm ai vào cũng được
+                                        saveToObject(reviewer, paper, finalObject, finalObjects, mapPaper, mapReviewer, maxReviewer, maxReviewPaper);
                                         maxReviewPaper++;
                                     }
                                 } else {
-                                    saveToObject(reviewer, paper, finalObject, finalObjects, mapPaper, mapReviewer, maxRev, maxReviewPaper);
+                                    // Nếu bài không phải của VIETNAM thì thêm ai chấm cũng được
+                                    saveToObject(reviewer, paper, finalObject, finalObjects, mapPaper, mapReviewer, maxReviewer, maxReviewPaper);
                                     maxReviewPaper++;
                                 }
                             }
