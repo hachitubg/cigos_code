@@ -17,7 +17,7 @@ import java.io.InputStream;
 import java.sql.SQLOutput;
 import java.util.*;
 
-public class Logic1 {
+public class LogicDoUuTienTopic {
     public static String base_url = "./file/";
 
     public static String firstName = "First name";

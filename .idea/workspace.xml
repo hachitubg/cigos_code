@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="201c7262-ddac-4b22-b6de-cd3cc3357817" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Logic1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PhanBoPaperLogic1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apache-poi-read-write-excel.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PhanBoPaperLogic1Coppy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d096ad8d8d033cc577a1f47e70cc7e0606ae8e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcelPOI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cigos_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/final/Format_editors.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/final/Format_editors.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/file/final/Format_editors.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/final/Format_editors_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/paper.xls" beforeDir="false" afterPath="$PROJECT_DIR$/file/paper.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/reviewers.xls" beforeDir="false" afterPath="$PROJECT_DIR$/file/reviewers.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Logic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogicDoUuTienTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Logic1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/PhanBoPaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PhanBoPaper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PhanBoPaperLogic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PhanBoPaperLogic1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +62,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.PhanBoPaper">
-    <configuration name="Logic1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PhanBoPaperLogic1Coppy">
+    <configuration name="LogicDoUuTienTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Logic1" />
+      <option name="MAIN_CLASS_NAME" value="LogicDoUuTienTopic" />
       <module name="cigos_code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,33 +91,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="PhanBoPaperLogic1Coppy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PhanBoPaperLogic1Coppy" />
+      <module name="cigos_code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Logic1" />
       <item itemvalue="Application.PhanBoPaper" />
       <item itemvalue="Application.PhanBoPaperLogic1" />
+      <item itemvalue="Application.LogicDoUuTienTopic" />
+      <item itemvalue="Application.PhanBoPaperLogic1Coppy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhanBoPaper" />
+        <item itemvalue="Application.PhanBoPaperLogic1Coppy" />
         <item itemvalue="Application.PhanBoPaperLogic1" />
-        <item itemvalue="Application.Logic1" />
+        <item itemvalue="Application.PhanBoPaper" />
+        <item itemvalue="Application.LogicDoUuTienTopic" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="201c7262-ddac-4b22-b6de-cd3cc3357817" name="Changes" comment="" />
@@ -115,11 +127,13 @@
       <workItem from="1632934788299" duration="915000" />
       <workItem from="1647772787963" duration="7842000" />
       <workItem from="1647959561032" duration="950000" />
+      <workItem from="1650381634242" duration="13147000" />
+      <workItem from="1650465637602" duration="7889000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,11 +147,65 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="1160" y="113" key="#xdebugger.evaluate" timestamp="1650469919672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1160" y="113" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1650469919672" />
+    <state width="431" height="646" key="DebuggerActiveHint" timestamp="1650389711533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="431" height="646" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1650389711533" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1650473501886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501886" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1650473501886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501886" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1650473501886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501886" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1650473501886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501886" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1650473501774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501774" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1650473501774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501774" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1650473501774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501774" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1650473501774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650473501774" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1650382418816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650382418816" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1650389690201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1650389690201" />
+    <state x="496" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650388781870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="166" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1650388781870" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Logic1.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/LogicDoUuTienTopic.java</url>
           <line>359</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
