@@ -7,8 +7,16 @@
 
 ***
 ## Hướng dẫn chạy code:
-**Phân bỏ reviewer chấm paper:
+**Phân bổ reviewer chấm paper:
 1. Kiểm tra và thay đổi 2 file đầu vào với đúng các cột như file mẫu
 - File **reviewers.xls** trong thư mục file
 - File **paper.xls** trong thư mục file
 2. Kết quả là file **Format_editors.xlsx** trong thư mục file/final
+
+
+***
+## Giải thích các file:
+**Phân bỏ reviewer chấm paper: 
+- Chạy file PhanBoPaperLogic1Coppy.java bằng cách run Java File
+- Có rất nhiều cách để chạy được Java File (Có thể GG để tìm cách hợp với bạn nhất)
+- Như cách mình dùng là mình dùng IDE Intellij nên chỉ cần chuột phải và chọn run file thôi là nó chạy 
