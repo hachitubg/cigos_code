@@ -7,7 +7,7 @@
 
 ***
 ## Hướng dẫn chạy code:
-**Phân bổ reviewer chấm paper:
+**Phân bổ reviewer chấm paper:**
 1. Kiểm tra và thay đổi 2 file đầu vào với đúng các cột như file mẫu
 - File **reviewers.xls** trong thư mục file
 - File **paper.xls** trong thư mục file
@@ -16,7 +16,13 @@
 
 ***
 ## Giải thích các file:
-**Phân bỏ reviewer chấm paper: 
+**PhanBoPaperLogic1Coppy.java:**
+- File này là file phân bổ với logic được update mới nhất
 - Chạy file PhanBoPaperLogic1Coppy.java bằng cách run Java File
 - Có rất nhiều cách để chạy được Java File (Có thể GG để tìm cách hợp với bạn nhất)
 - Như cách mình dùng là mình dùng IDE Intellij nên chỉ cần chuột phải và chọn run file thôi là nó chạy 
+
+**LogicDoUuTienTopic.java:**
+- Sắp xếp độ ưu tiên của các TOPIC
+
+**Các file khác không cần quan tâm ạ, là mấy file em test logic thôi**
